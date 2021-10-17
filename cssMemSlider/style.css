@@ -37,7 +37,7 @@ article img {
 }
 
 .span {
-  height: 21px;
+  height: 24px;
   overflow: hidden;
 }
 
@@ -110,6 +110,11 @@ article img {
   cursor: pointer;
 }
 
+#active label:active {
+  background: #ffffff;
+  cursor: pointer;
+}
+
 #switch1:checked ~ .bottom-wrapper label:nth-child(1),
 #switch2:checked ~ .bottom-wrapper label:nth-child(2),
 #switch3:checked ~ .bottom-wrapper label:nth-child(3),
@@ -136,6 +141,11 @@ article img {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {
