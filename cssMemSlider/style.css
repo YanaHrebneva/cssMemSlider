@@ -10,7 +10,6 @@ body {
 #slider {
   max-width: 60%;
   padding: 2%;
-  position: relative;
   text-align: center;
   margin: 0 auto;
   box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
@@ -94,6 +93,7 @@ article img {
 
 label {
   border: 0.5em solid cadetblue;
+  cursor: pointer;
 }
 
 #active label{
@@ -142,7 +142,7 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 span {
@@ -150,7 +150,7 @@ span {
   font-size: 1em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 
   .bottom-wrapper {
     flex-direction: column-reverse;
