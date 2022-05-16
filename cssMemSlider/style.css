@@ -8,13 +8,12 @@ body {
 }
 
 #slider {
-  max-width: 840px;
-  padding: 15px 15px;
+  max-width: 60%;
+  padding: 2%;
   position: relative;
   text-align: center;
-  top: 7px;
   margin: 0 auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
 }
 
 #slides article {
@@ -37,7 +36,6 @@ article img {
 }
 
 .span {
-  height: 24px;
   overflow: hidden;
 }
 
@@ -94,6 +92,10 @@ article img {
   animation: 2s ease fade;
 }
 
+/* label {
+  border: 0.5em solid cadetblue;
+} */
+
 #active label{
   display: inline-block;
   width: 15px;
@@ -145,7 +147,7 @@ article img {
 
 span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 500px) {
