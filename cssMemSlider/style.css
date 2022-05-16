@@ -8,7 +8,7 @@ body {
 }
 
 #slider {
-  max-width: 60%;
+  max-width: 50%;
   padding: 2%;
   text-align: center;
   margin: 0 auto;
@@ -94,12 +94,12 @@ article img {
 label {
   border: 0.5em solid cadetblue;
   cursor: pointer;
+  width: 1em;
+  height: 1em;
 }
 
 #active label{
   display: inline-block;
-  width: 1em;
-  height: 1em;
   background-color: #bbb;
 }
 
@@ -160,6 +160,13 @@ span {
   
   #active {
     align-self: center;
+  }
+
+  label {
+    border: 0.5em solid cadetblue;
+    cursor: pointer;
+    width: 0.75em;
+    height: 0.75em;
   }
 
 }
