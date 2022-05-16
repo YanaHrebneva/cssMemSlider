@@ -98,8 +98,8 @@ article img {
 
 #active label{
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 1em;
+  height: 1em;
   background-color: #bbb;
 }
 
@@ -154,7 +154,7 @@ span {
 
   .bottom-wrapper {
     flex-direction: column-reverse;
-    padding: 15px 38px;
+    padding: 1em 2em;
     align-items: center;
   }
 
