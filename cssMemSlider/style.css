@@ -92,9 +92,9 @@ article img {
   animation: 2s ease fade;
 }
 
-/* label {
+label {
   border: 0.5em solid cadetblue;
-} */
+}
 
 #active label{
   display: inline-block;
@@ -154,8 +154,12 @@ span {
 
   .bottom-wrapper {
     flex-direction: column-reverse;
-    padding: 1em 2em;
-    align-items: center;
+    padding: 1em 0;
+    align-items: self-start;
+  }
+  
+  #active {
+    align-self: center;
   }
 
 }
