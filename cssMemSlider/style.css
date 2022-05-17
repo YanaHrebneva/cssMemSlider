@@ -17,7 +17,6 @@ body {
 
 #slides article {
   width: 20%;
-  float: left;
 }
 
 #slides .image {
@@ -127,6 +126,7 @@ label {
 
 #slides .image {
   transition: all 0.8s ease-in;
+  display: flex;
 }
 
 @keyframes fade {
@@ -150,7 +150,7 @@ span {
   font-size: 1em;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
 
   .bottom-wrapper {
     flex-direction: column-reverse;
